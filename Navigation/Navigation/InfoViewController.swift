@@ -9,15 +9,6 @@ import UIKit
 
 class InfoViewController: UIViewController {
     
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupView()
-        setupButton()
-    }
-    func setupView() {
-        view.backgroundColor = .systemGray5
-    }
     private lazy var button: UIButton = {
         let button = UIButton()
         button.backgroundColor = .systemGray
@@ -36,6 +27,16 @@ class InfoViewController: UIViewController {
         self.button.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20).isActive = true
         self.button.heightAnchor.constraint(equalToConstant: 50).isActive = true
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupView()
+        setupButton()
+    }
+    func setupView() {
+        view.backgroundColor = .systemGray5
+    }
+
     @objc func buttonAction() {
         let alert = UIAlertController(title: "Внимание!", message: "Это алерта", preferredStyle: UIAlertController.Style.alert)
         let okAction = UIAlertAction(title: "Понятно", style: UIAlertAction.Style.default) {

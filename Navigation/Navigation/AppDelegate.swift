@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setupTabBarController() -> UITabBarController {
         let tabBarController = UITabBarController()
-        UITabBar.appearance().backgroundColor = .systemGray
+        UITabBar.appearance().backgroundColor = ColorSet.secondColor
         tabBarController.viewControllers = [setupFeedViewController(), setupProfileViewController()]
         return tabBarController
     }
