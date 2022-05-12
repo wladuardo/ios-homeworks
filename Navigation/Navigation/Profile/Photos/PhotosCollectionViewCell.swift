@@ -4,7 +4,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
 
     weak var delegate: CustomCellDelegate?
 
-    private var photoImageView: UIImageView = {
+    private lazy var photoImageView: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "p1"))
         imageView.frame = .zero
         imageView.contentMode = .scaleAspectFill
@@ -12,7 +12,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
-
+    
     let allPhotoButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false

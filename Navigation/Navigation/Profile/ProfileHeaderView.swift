@@ -37,7 +37,7 @@ class ProfileHeaderView: UIView {
         return textField
     }()
 
-    private let fullNameLabel: UILabel = {
+    private lazy var fullNameLabel: UILabel = {
         let label = UILabel()
         label.text = "Боб Бобов"
         label.textColor = .black
@@ -46,7 +46,7 @@ class ProfileHeaderView: UIView {
         return label
     }()
 
-    private let statusLabel: UILabel = {
+    private lazy var statusLabel: UILabel = {
         let label = UILabel()
         label.text = "Wait for something..."
         label.textColor = .gray
@@ -55,7 +55,7 @@ class ProfileHeaderView: UIView {
         return label
     }()
 
-    var avatarImageView: UIImageView = {
+    private lazy var avatarImageView: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "15"))
         imageView.frame = .zero
         imageView.contentMode = .scaleAspectFill
@@ -68,7 +68,7 @@ class ProfileHeaderView: UIView {
         return imageView
     }()
 
-    private let labelVerticalStack: UIStackView = {
+    private lazy var labelVerticalStack: UIStackView = {
         let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.distribution = .fillProportionally
@@ -77,14 +77,14 @@ class ProfileHeaderView: UIView {
         return stack
     }()
 
-    private let infoHorizontalStack: UIStackView = {
+    private lazy var infoHorizontalStack: UIStackView = {
         let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.spacing = 20
         return stack
     }()
 
-    private let mainVerticalStack: UIStackView = {
+    private lazy var mainVerticalStack: UIStackView = {
         let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.axis = .vertical

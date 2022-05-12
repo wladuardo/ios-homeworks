@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D32F32F282CDE72003B8E9D /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32F32E282CDE71003B8E9D /* LogInView.swift */; };
+		1D32F333282CE1A1003B8E9D /* UIColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32F332282CE1A1003B8E9D /* UIColorExtention.swift */; };
+		1D32F335282CE1C1003B8E9D /* UITextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32F334282CE1C1003B8E9D /* UITextFieldExtention.swift */; };
 		1D7AF3622810076000C9AC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AF3612810076000C9AC9F /* AppDelegate.swift */; };
 		1D7AF3642810076000C9AC9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AF3632810076000C9AC9F /* SceneDelegate.swift */; };
 		1D7AF3662810076000C9AC9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AF3652810076000C9AC9F /* ViewController.swift */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D32F32E282CDE71003B8E9D /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		1D32F332282CE1A1003B8E9D /* UIColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtention.swift; sourceTree = "<group>"; };
+		1D32F334282CE1C1003B8E9D /* UITextFieldExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtention.swift; sourceTree = "<group>"; };
 		1D7AF35E2810076000C9AC9F /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7AF3612810076000C9AC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D7AF3632810076000C9AC9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				1DAE37872828C93B0078D3FA /* UIViewExtention.swift */,
+				1D32F332282CE1A1003B8E9D /* UIColorExtention.swift */,
+				1D32F334282CE1C1003B8E9D /* UITextFieldExtention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 				1DF8883C28100830008929EF /* ProfileViewController.swift */,
 				1DF8883F281008BD008929EF /* ProfileHeaderView.swift */,
 				1DAE377C2828C4910078D3FA /* LogInViewController.swift */,
+				1D32F32E282CDE71003B8E9D /* LogInView.swift */,
 				1DFE82E5282A569500338BD9 /* AllPhotos */,
 				1DFE82DD282A506600338BD9 /* Photos */,
 			);
@@ -236,10 +245,12 @@
 				1DAE37842828C8B50078D3FA /* PostTableViewCell.swift in Sources */,
 				1DFE82EE282A591F00338BD9 /* Colors.swift in Sources */,
 				1D7AF3662810076000C9AC9F /* ViewController.swift in Sources */,
+				1D32F333282CE1A1003B8E9D /* UIColorExtention.swift in Sources */,
 				1D7AF3622810076000C9AC9F /* AppDelegate.swift in Sources */,
 				1DF8883B2810081C008929EF /* PostViewController.swift in Sources */,
 				1DAE378A2828C9740078D3FA /* Post.swift in Sources */,
 				1DAE37882828C93B0078D3FA /* UIViewExtention.swift in Sources */,
+				1D32F335282CE1C1003B8E9D /* UITextFieldExtention.swift in Sources */,
 				1DF88835281007E4008929EF /* FeedViewController.swift in Sources */,
 				1DF88840281008BD008929EF /* ProfileHeaderView.swift in Sources */,
 				1DAE378C2828DC600078D3FA /* PhotosTableViewCell.swift in Sources */,
@@ -248,6 +259,7 @@
 				1DFE82E9282A572A00338BD9 /* PhotosCollectionViewCell.swift in Sources */,
 				1DFE82E4282A566400338BD9 /* ButtonCellDelegate.swift in Sources */,
 				1DFE82DF282A508300338BD9 /* PhotosModel.swift in Sources */,
+				1D32F32F282CDE72003B8E9D /* LogInView.swift in Sources */,
 				1DAE377D2828C4910078D3FA /* LogInViewController.swift in Sources */,
 				1DF88837281007F6008929EF /* InfoViewController.swift in Sources */,
 				1DFE82E7282A56FB00338BD9 /* AllPhotoCollectionViewCell.swift in Sources */,

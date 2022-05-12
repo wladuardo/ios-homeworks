@@ -9,14 +9,14 @@ import UIKit
 
 class PostTableViewCell: UITableViewCell {
     
-    private let whiteView: UIView = {
+    private lazy var whiteView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .white
         return view
     }()
     
-    private let postNameLabel: UILabel = {
+    private lazy var postNameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.backgroundColor = .white
@@ -26,7 +26,7 @@ class PostTableViewCell: UITableViewCell {
         return label
     }()
 
-    private let postImageView: UIImageView = {
+    private lazy var postImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.backgroundColor = .black
@@ -34,7 +34,7 @@ class PostTableViewCell: UITableViewCell {
         return imageView
     }()
 
-    private let descriptionLabel: UILabel = {
+    private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.backgroundColor = .white
@@ -44,7 +44,7 @@ class PostTableViewCell: UITableViewCell {
         return label
     }()
 
-    private let likesLabel: UILabel = {
+    private lazy var likesLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
@@ -53,7 +53,7 @@ class PostTableViewCell: UITableViewCell {
         return label
     }()
 
-    private let viewsLabel: UILabel = {
+    private lazy var viewsLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
