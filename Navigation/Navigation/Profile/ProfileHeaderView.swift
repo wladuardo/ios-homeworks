@@ -11,8 +11,6 @@ class ProfileHeaderView: UIView {
     
     private var statusText: String?
     
-    // MARK: Свойства
-    
     private lazy var setStatusButton: UIButton = {
         let button = UIButton()
         button.setTitle("Изменить статус", for: .normal)

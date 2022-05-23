@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0416972833A04100857297 /* ButtonLoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0416962833A04100857297 /* ButtonLoginDelegate.swift */; };
 		1D0416992833A0DA00857297 /* TapPostImageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0416982833A0DA00857297 /* TapPostImageDelegate.swift */; };
 		1D04169B2833A0E700857297 /* TapAllPhotoCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D04169A2833A0E700857297 /* TapAllPhotoCellDelegate.swift */; };
 		1D04169D2833A7AB00857297 /* PostFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D04169C2833A7AB00857297 /* PostFullScreenViewController.swift */; };
 		1D32F32F282CDE72003B8E9D /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32F32E282CDE71003B8E9D /* LogInView.swift */; };
 		1D32F333282CE1A1003B8E9D /* UIColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32F332282CE1A1003B8E9D /* UIColorExtention.swift */; };
 		1D32F335282CE1C1003B8E9D /* UITextFieldExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D32F334282CE1C1003B8E9D /* UITextFieldExtention.swift */; };
+		1D77F356283B5B2100E9648A /* ButtonLoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77F355283B5B2100E9648A /* ButtonLoginDelegate.swift */; };
 		1D7AF3622810076000C9AC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AF3612810076000C9AC9F /* AppDelegate.swift */; };
 		1D7AF3642810076000C9AC9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AF3632810076000C9AC9F /* SceneDelegate.swift */; };
 		1D7AF3662810076000C9AC9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AF3652810076000C9AC9F /* ViewController.swift */; };
@@ -39,13 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D0416962833A04100857297 /* ButtonLoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonLoginDelegate.swift; path = ../../../../../../../../Downloads/ButtonLoginDelegate.swift; sourceTree = "<group>"; };
 		1D0416982833A0DA00857297 /* TapPostImageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapPostImageDelegate.swift; sourceTree = "<group>"; };
 		1D04169A2833A0E700857297 /* TapAllPhotoCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAllPhotoCellDelegate.swift; sourceTree = "<group>"; };
 		1D04169C2833A7AB00857297 /* PostFullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFullScreenViewController.swift; sourceTree = "<group>"; };
 		1D32F32E282CDE71003B8E9D /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		1D32F332282CE1A1003B8E9D /* UIColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtention.swift; sourceTree = "<group>"; };
 		1D32F334282CE1C1003B8E9D /* UITextFieldExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtention.swift; sourceTree = "<group>"; };
+		1D77F355283B5B2100E9648A /* ButtonLoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLoginDelegate.swift; sourceTree = "<group>"; };
 		1D7AF35E2810076000C9AC9F /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7AF3612810076000C9AC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D7AF3632810076000C9AC9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,9 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				1DFE82E3282A566400338BD9 /* ButtonCellDelegate.swift */,
-				1D0416962833A04100857297 /* ButtonLoginDelegate.swift */,
 				1D0416982833A0DA00857297 /* TapPostImageDelegate.swift */,
 				1D04169A2833A0E700857297 /* TapAllPhotoCellDelegate.swift */,
+				1D77F355283B5B2100E9648A /* ButtonLoginDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -267,12 +267,12 @@
 				1D04169D2833A7AB00857297 /* PostFullScreenViewController.swift in Sources */,
 				1D7AF3662810076000C9AC9F /* ViewController.swift in Sources */,
 				1D32F333282CE1A1003B8E9D /* UIColorExtention.swift in Sources */,
-				1D0416972833A04100857297 /* ButtonLoginDelegate.swift in Sources */,
 				1D7AF3622810076000C9AC9F /* AppDelegate.swift in Sources */,
 				1DF8883B2810081C008929EF /* PostViewController.swift in Sources */,
 				1DAE378A2828C9740078D3FA /* Post.swift in Sources */,
 				1DAE37882828C93B0078D3FA /* UIViewExtention.swift in Sources */,
 				1D0416992833A0DA00857297 /* TapPostImageDelegate.swift in Sources */,
+				1D77F356283B5B2100E9648A /* ButtonLoginDelegate.swift in Sources */,
 				1D32F335282CE1C1003B8E9D /* UITextFieldExtention.swift in Sources */,
 				1DF88835281007E4008929EF /* FeedViewController.swift in Sources */,
 				1DF88840281008BD008929EF /* ProfileHeaderView.swift in Sources */,
